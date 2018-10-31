@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
-
 @author: joy
 """
 
