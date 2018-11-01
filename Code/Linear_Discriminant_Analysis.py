@@ -43,12 +43,12 @@ lda=LDA(n_components=1)
 X_train=lda.fit_transform(X_train,y_train)
 X_test=lda.transform(X_test)
 
-#Linear Regression
+#RandomForest
 from sklearn.ensemble import RandomForestClassifier
 model=RandomForestClassifier()
 model.fit(X_train,y_train)
 
-#Predict values for cv data
+#Predict values
 pred=model.predict(X_test)
 
 #Evaluate accuracy of model
